@@ -1,9 +1,10 @@
-#include <Arduino.h>
+#include "motor.h"
 
-void setup() {
-  // put your setup code here, to run once:
+void setup()
+{
+  motor_innit();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  tes_motor();
 }
