@@ -10,7 +10,6 @@
 
 void motor_innit()
 {
-    Serial.begin(9600);
     pinMode(IN1_1, OUTPUT);
     pinMode(IN2_1, OUTPUT);
     pinMode(IN3_1, OUTPUT);

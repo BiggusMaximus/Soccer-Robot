@@ -2,9 +2,11 @@
 
 void setup()
 {
+  Serial.begin(9600);
   motor_innit();
 }
 
-void loop() {
+void loop()
+{
   tes_motor();
 }
